@@ -19,7 +19,7 @@ from sklearn.cluster import KMeans
 
 
 
-client = AsyncOpenAI(api_key="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")
+client = AsyncOpenAI
 
 def allowed_file(filename):
     return '.' in filename and \
